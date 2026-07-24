@@ -1,0 +1,55 @@
+
+(* var english = parseFloat(prompt("Enter English Marks:"));
+var mathematics = parseFloat(prompt("Enter Mathematics Marks:"));
+var physics = parseFloat(prompt("Enter Physics Marks:"));
+var chemistry = parseFloat(prompt("Enter Chemistry Marks:"));
+var computer = parseFloat(prompt("Enter Computer Science Marks:"));
+var urdu = parseFloat(prompt("Enter Urdu Marks:"));
+var islamiat = parseFloat(prompt("Enter Islamiat Marks:"));
+
+// Calculating average
+var total = english + mathematics + physics + chemistry + computer + urdu + islamiat;
+var average = total / 7;
+
+// Grade variable
+var grade;
+
+// Nested If-Else for Grade
+if (average >= 80) {
+    grade = "A+";
+} else {
+    if (average >= 70) {
+        grade = "A";
+    } else {
+        if (average >= 60) {
+            grade = "B";
+        } else {
+            if (average >= 50) {
+                grade = "C";
+            } else {
+                if (average >= 40) {
+                    grade = "D";
+                } else {
+                    grade = "Fail";
+                }
+            }
+        }
+    }
+}
+
+// Display Mark Sheet
+document.write("<h1>Student Mark Sheet</h1>");
+document.write("<hr>");
+
+document.write("<b>English:</b> " + english + "<br>");
+document.write("<b>Mathematics:</b> " + mathematics + "<br>");
+document.write("<b>Physics:</b> " + physics + "<br>");
+document.write("<b>Chemistry:</b> " + chemistry + "<br>");
+document.write("<b>Computer Science:</b> " + computer + "<br>");
+document.write("<b>Urdu:</b> " + urdu + "<br>");
+document.write("<b>Islamiat:</b> " + islamiat + "<br>");
+
+document.write("<hr>");
+document.write("<b>Total Marks:</b> " + total + "<br>");
+document.write("<b>Average Marks:</b> " + average.toFixed(2) + "<br>");
+document.write("<b>Grade:</b> " + grade); *)
